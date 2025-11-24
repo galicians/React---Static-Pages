@@ -10,6 +10,30 @@ nav {
   height: 100%;
 }
 
+.main {
+  padding: 60px 30px;
+  background-image: url(./assets/react-logo-half.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+.facts-list-header {
+  margin: 0;
+  font-size: 2.4em;
+}
+
+.facts-list {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.facts-list-item {
+  padding-block: 10px;
+  line-height: 19px;
+  
+}
+
 .logoImg {
   width: 45px;
   margin-right: 7px;
@@ -20,21 +44,14 @@ nav {
   font-weight: 700;
 }
 
-.main {
-  background-color: #33373E;
-  height: 100%;
-}
-
-.main-header {
-  color: #FFFFFF;
-}
-
 .react-fact {
-  color: #DEEBF8;
   font-weight: semi bold;
   font-size: 16px;
   line-height: auto;
   letter-spacing: 0%;
 }
 
-
+.facts-list > li::marker {
+  color: #61DAFB;
+  font-size: 1.4rem;
+}
