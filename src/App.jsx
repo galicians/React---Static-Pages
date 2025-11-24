@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header />
-      <h1> Main APP</h1>
+      <h1> Main component here</h1>
     </>
   )
 }

@@ -1,6 +1,23 @@
+header {
+  height: 90px;
+  background-color: #21222A;
+  padding: 30px 25px;
+}
+
 nav {
   display: flex;
   align-items: center;
-  height: 91px;
-  
+  height: 100%;
 }
+
+.logoImg {
+  width: 45px;
+  margin-right: 7px;
+}
+.logoText {
+  color: #61DAFB;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+
