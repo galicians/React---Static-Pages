@@ -20,4 +20,21 @@ nav {
   font-weight: 700;
 }
 
+.main {
+  background-color: #33373E;
+  height: 100%;
+}
+
+.main-header {
+  color: #FFFFFF;
+}
+
+.react-fact {
+  color: #DEEBF8;
+  font-weight: semi bold;
+  font-size: 16px;
+  line-height: auto;
+  letter-spacing: 0%;
+}
+
 
